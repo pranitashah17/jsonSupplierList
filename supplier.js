@@ -30,17 +30,12 @@ router.get('/', async(req, res) => {
         .find({})
         .toArray()
   
-
     let loc = req.query.loc;
     let grdNo = req.query.grdNo
-     
-    // supplierList(loc, grdNo, data)
-    
+   
     res.send(supplierList(loc, grdNo, data))
-    // getData.close();
+
 
 })
 
-// supplierList('5c08cb6f54851e2170a044f4', 'F18S010UA');
-// module.exports = { supplierList }
 export default router;
