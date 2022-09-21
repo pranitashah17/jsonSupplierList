@@ -41,13 +41,6 @@ describe("supplier name according to location and grade number", () => {
     })
 })
 
-
-
-
-
-
-// import { parse } from 'node-html-parser';
-
         // let loc = '5c08cb6f54851e2170a044f4';
         // const parse = require('node-html-parser');
         // let grdNo = 'SRM100NC';
