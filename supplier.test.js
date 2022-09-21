@@ -1,4 +1,4 @@
-const { supplierList } = require("./supplier.js");
+const { supplierList } = require("./route/supplier.js");
 
 const fs = require( 'fs');
 let rawdata = fs.readFileSync('jsonData.json');
