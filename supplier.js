@@ -4,7 +4,7 @@ import {connectionNew} from '../connection.js'
 const router = express.Router();
   
 
-function supplierList(loc, grdNo, data) {
+export function supplierList(loc, grdNo, data) {
     let finalarray = []; 
     let array = [];
     for(let i=0; i < data.length; i++) {
@@ -39,3 +39,5 @@ router.get('/', async(req, res) => {
 })
 
 export default router;
+
+
